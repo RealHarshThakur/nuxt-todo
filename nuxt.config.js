@@ -6,7 +6,6 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
     title: "Todo App",
     meta: [
       { charset: 'utf-8' },
