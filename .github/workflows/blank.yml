@@ -14,6 +14,13 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta
+    - name: Install
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: install
+    - name: builld
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: build
+
    
