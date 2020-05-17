@@ -65,7 +65,7 @@ export default {
         {
           id:"4",
           done: true,
-          text:'Sleep again'
+          text:'Not Sleep again'
         },
         {
           id:"5",
